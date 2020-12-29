@@ -1,0 +1,52 @@
+$icons-fontsize: 15px;
+
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+#calculator-container {
+  background-color: rgb(31, 31, 31);
+  width: 100vw;
+  height: 100vh;
+}
+
+#calculator-header {
+  display: flex;
+  flex-direction: column;
+}
+
+#calculator-top-ui {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+
+  h1 {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  #ui_icons {
+    justify-self: flex-end;
+    list-style: none;
+    display: flex;
+    gap: 12vw;
+    font-size: $icons-fontsize;
+  }
+}
+
+#history-icon {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+
+  i {
+    font-size: $icons-fontsize;
+    margin-right: 7vw;
+  }
+}

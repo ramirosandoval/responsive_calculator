@@ -1,0 +1,15 @@
+{
+  "name": "responsive_calc",
+  "version": "1.0.0",
+  "description": "Responsive design calculator made with SASS & Javascript.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss -o dist/css"
+  },
+  "author": "Ramiro Sandoval",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "node-sass": "^5.0.0"
+  }
+}
